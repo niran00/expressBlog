@@ -6,7 +6,7 @@
     <% console.log(post.title); %>
         <div class="card my-2 ">
             <h1> <%= post.title %> </h1>
-            <p> <%= post.content.substring(0,100) + "..." %> <a href="/posts/ <%= post.title %>">Read More</a>  </p> 
+            <p> <%= post.content.substring(0,99) + "..." %> <a href="/posts/ <%= post.title %>">Read More</a>  </p> 
         </div>
         
      <%   }) %>
