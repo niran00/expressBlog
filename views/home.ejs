@@ -4,12 +4,13 @@
 
     <% postLoop.forEach(function(post){ %>
     <% console.log(post.title); %>
+
         <div class="p-2 card my-2 ">
             <h1> <%= post.title %> </h1>
             <p> <%= post.content.substring(0,300) + "..." %><a href="/posts/<%=post._id%>">Read More</a>  </p> 
         </div>
         
-     <%   }) %>
+     <%  }) %>
 
 
     
